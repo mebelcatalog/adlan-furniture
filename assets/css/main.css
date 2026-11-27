@@ -729,3 +729,11 @@ html.has-cart .toast { bottom: calc(16px + var(--cart-h, 0px)); }
 .hero-content .btn--wa { background:#e3b77b; color:#20170f; }
 .hero-content .btn--tg { background:#28221d; color:#f7e2c6; border:1px solid #7e6346; }
 @media(max-width:720px){ .home-hero{grid-template-columns:1fr}.hero-identity{max-width:400px;margin:auto}.hero-content{padding:12px 20px 24px}.hero-content .home-cta{flex-wrap:wrap} }
+
+/* Стулья — палитра и типографика ADLAN, полный кадр. */
+.car--chairs .car-track { aspect-ratio: 3 / 4; }
+.car--chairs .car-slide img { object-fit: contain; }
+.card:has(.car--chairs) { border-color: var(--line-strong); }
+.car--chairs .tag--num { background: var(--accent); color: var(--accent-ink); }
+.related-group + .related-group { margin-top: 16px; }
+.related[href^="chairs/"] img, .home-cat[href="chairs/"] img { object-fit: contain; }
